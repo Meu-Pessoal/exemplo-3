@@ -31,7 +31,7 @@ let exemplo4 = {};
 console.log(typeof exemplo4);
 
 let exemplo5 = [];
-console.log(typeof exemplo5)
+console.log(typeof exemplo5);
 
 //CONVERCAO DE VARIAVEIS
 let numFloat = 123.456;
@@ -40,3 +40,17 @@ console.log(parseInt(numFloat));
 let numString = '123.456';
 console.log(parseFloat(numString));
 
+
+//METODOS
+
+//LENGTH = VERIFICA O TAMANHO DA STRING
+let frase = 'O mundo da tecnologia';
+console.log(frase.length);
+
+//INDEXOF = RETORNA UM TRECHO DE TEXTO
+let texto = 'A programação indomável e sustrntavel';
+console.log(texto.indexOf('ão'));
+
+//SLICE = RETORNA UM TRECHO DE TEXTO COM INICIO E FINAL
+let info = 'Processamento de ponta';
+console.log(info.slice(16, 25));
