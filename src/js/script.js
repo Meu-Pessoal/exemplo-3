@@ -117,3 +117,13 @@
 // }
 
 // // TERNARIO
+let valor = 100;
+let resultado = valor == 100 ? "Certo" : "Errado";
+console.log(resultado)
+
+// TERNARIO ENCADEADO
+let produto = 'mouse';
+let desconto = true;
+const preco = produto == 'notebook' ? desconto ? 100 : 200 : produto == 'mouse' ? 30 : 100
+console.log(preco)
+
