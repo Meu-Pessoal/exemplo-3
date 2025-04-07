@@ -64,14 +64,56 @@
 // console.log(num1 * num2);
 // console.log(num1 / num2);
 
-//OPERADORES LOGICOS
-const num3 = 10;
-const num4 = 20;
+// //OPERADORES LOGICOS
+// const num3 = 20;
+// const num4 = 30;
 
-console.log(num3 < num4);
-console.log(num3 > num4 && num4 < num3);
-console.log(num3 < num4 ||  num4 < num3);
+// console.log(num3 < num4);
+// console.log(num3 > num4 && num4 < num3);
+// console.log(num3 < num4 ||  num4 < num3);
 
-//OPERADORES COMPARATIVOS
-console.log(num3 == num4);
-console.log(num3 === num4);
+// //OPERADORES COMPARATIVOS
+// console.log(num3 == num4);
+// console.log(num3 === num4);
+
+// // ESTRUTURA CONDICIONAL
+// let logado = 'fiap';
+// if (logado == 'fiap') {
+//     console.log('é verdade')
+// }
+
+// // IF ELSE
+// let usuario = 'teste'
+// if(usuario == 'teste') {
+//     console.log('Usuario correto!')
+// }else{
+//     console.log('Usuario errado!')
+// }
+
+// // IF ENCADEADO/ALINHADO
+// let idade = 15;
+// if (idade <= 15) {
+//     console.log('menor de idade')
+// } else if (idade > 15 && idade < 18) {
+//     console.log('não é maior de idade, mas pode entrar')
+// } else {
+//     console.log('pode entrar, é maior de idade')
+// }
+
+// // SWITCH
+// let time = 'Corinthians'
+// switch(time){
+//     case "Corinthians":
+//         console.log('Melhor time')
+//         break;
+//     case "São Paulo":
+//         console.log('Não é o melhor')
+//         break;
+//     case "Palmeiras":
+//         console.log("Não tem mundial")
+//         break;
+//     default:
+//         console.log('Nenhuma das opções')
+// }
+
+// // TERNARIO
